@@ -11,4 +11,4 @@ let mix = require("laravel-mix");
  |
  */
 
-mix.sass("src/styles/style.css", "dist/css").js("src/js/script.css", "dist/js");
+mix.sass("src/styles/style.scss", "dist/css").js("src/js/script.js", "dist/js");
